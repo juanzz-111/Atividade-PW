@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trabaiando</title>
+    <title>Atividade</title>
+    <h1>Mudar o Texto ao interagir com o Botão</h1>
 </head>
 <body>
     <p id="p1">Texto qualquer</p>
@@ -14,5 +15,6 @@
             document.getElementById("p1").innerText = "Esse sim é o texto"
         }
     </script>
+
 </body>
 </html>
