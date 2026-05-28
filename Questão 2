@@ -1,1 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabaiando</title>
+</head>
+<body>
+    <p id="p1">Texto qualquer</p>
+    <button onclick="meubutton()">Aperte aqui</button>
 
+    <script>
+        function meubutton(){
+            document.getElementById("p1").innerText = "Esse sim é o texto"
+        }
+    </script>
+</body>
+</html>
