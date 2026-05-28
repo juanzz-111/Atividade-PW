@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade</title>
+    <h1>Você é maior de idade?</h1>
+</head>
+<body>
+    <input type ="number" id="entra" placeholder="Digite sua idade">
+    <button onclick="confirmar()">Confirme Aqui</button>
+    <p id="p1"></p>
+
+    <script>
+        function confirmar(){
+            let idade = document.getElementById("entra").value;
+            if( idade >= 18){
+                document.getElementById("p1").innerText = "Maior de Idade"
+            }
+            else{
+                document.getElementById("p1").innerText = "Menor de Idade"
+            }
+        }
+    </script>
+
+</body>
+</html>
